@@ -1,0 +1,19 @@
+/* Enhanced styles */
+
+body {
+    background: url('image/pharmacy.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the link to the signup page */
+p {
+    margin-top: 15px;
+}
+

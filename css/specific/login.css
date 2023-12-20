@@ -1,0 +1,65 @@
+/* Login-specific styles */
+
+.container {
+    margin: 100px auto;
+    max-width: 400px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333; /* Text color for headings */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333; /* Text color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+/* Simplified styles for the signup link */
+p {
+    margin-top: 15px;
+    color: #333; /* Set color to black */
+}
+
+a.signup-link {
+    color: #000; /* Set color to black */
+    text-decoration: underline; /* Underline the link */
+}
+
+a.signup-link:hover {
+    color: #555; /* Change color on hover to a darker shade */
+    text-decoration: none; /* Remove underline on hover */
+}
+
